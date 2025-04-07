@@ -1,0 +1,22 @@
+STUDYID,DOMAIN,ARMCD,ARM,TAETORD,ETCD,ELEMENT
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,1,EL1,Screening
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,2,EL2,Placebo
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,3,EL7,Follow up
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,4,EL3,Low
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,5,EL4,High - Start
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,6,EL5,High - Middle
+Study_CDISC PILOT - LZZT,TA,StudyArm_1,Placebo,7,EL6,High - End
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,1,EL1,Screening
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,2,EL2,Placebo
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,3,EL7,Follow up
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,4,EL3,Low
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,5,EL4,High - Start
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,6,EL5,High - Middle
+Study_CDISC PILOT - LZZT,TA,StudyArm_2,Xanomeline Low Dose,7,EL6,High - End
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,1,EL1,Screening
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,2,EL2,Placebo
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,3,EL7,Follow up
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,4,EL3,Low
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,5,EL4,High - Start
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,6,EL5,High - Middle
+Study_CDISC PILOT - LZZT,TA,StudyArm_3,Xanomeline High Dose,7,EL6,High - End
