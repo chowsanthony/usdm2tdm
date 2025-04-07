@@ -86,7 +86,7 @@ const extractSdtmTI = `
 // TODO: Make use of encounters[].nextId for proper ordering of visits
 // Define extraction expressions for TV
 const extractSdtmTV = `
-    study.versions[versionIdentifier="2"].studyDesigns[].encounters[]#$i.{
+    study.versions[versionIdentifier=$studyVersionId].studyDesigns[].encounters[]#$i.{
         "STUDYID": $$.study.name,
         "DOMAIN": "TV",
         "VISITNUM": $i + 1,
@@ -97,7 +97,7 @@ const extractSdtmTV = `
 `;
 
 const extractSdtmTE = `
-    study.versions[versionIdentifier="2"].studyDesigns[].elements[].{
+    study.versions[versionIdentifier=$studyVersionId].studyDesigns[].elements[].{
         "STUDYID": $$.study.name,
         "DOMAIN": "TE",
         "ETCD": name,
