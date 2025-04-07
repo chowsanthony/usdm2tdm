@@ -1,0 +1,8 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL
+Study_CDISC PILOT - LZZT,TE,EL1,Screening Element,Informed consent,Completion of all screening activities and no more than 2 weeks from informed consent
+Study_CDISC PILOT - LZZT,TE,EL2,Placebo TTS (adhesive patches),Administration of first dose,undefined
+Study_CDISC PILOT - LZZT,TE,EL7,Follow Up Element,End of last scheduled visit on study (including early termination),Completion of all specified followup activities (which vary on a patient-by-patient basis)
+Study_CDISC PILOT - LZZT,TE,EL3,"Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",Administration of first dose,undefined
+Study_CDISC PILOT - LZZT,TE,EL4,"Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",Randomized,undefined
+Study_CDISC PILOT - LZZT,TE,EL5,"Xanomeline TTS (adhesive patches) 50 cm2, 54 mg + 25 cm2, 27 mg",Administration of first dose (from patches supplied at Visit 4),undefined
+Study_CDISC PILOT - LZZT,TE,EL6,"Xanomeline TTS (adhesive patches) 50 cm2, 54 mg",Administration of first dose (from patches supplied at Visit 12),undefined

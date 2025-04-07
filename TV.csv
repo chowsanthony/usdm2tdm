@@ -1,0 +1,13 @@
+STUDYID,DOMAIN,VISITNUM,VISIT,TVSTRL,TVENRL
+Study_CDISC PILOT - LZZT,TV,1,Screening 1,Subject identifier,completion of screening activities
+Study_CDISC PILOT - LZZT,TV,2,Screening 2,undefined,subject leaves clinic after connection of ambulatory ECG machine
+Study_CDISC PILOT - LZZT,TV,3,Baseline,subject has connection of ambulatory ECG machine removed,Radomized
+Study_CDISC PILOT - LZZT,TV,4,Week 2,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,5,Week 4,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,6,Week 6,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,7,Week 8,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,8,Week 12,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,9,Week 16,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,10,Week 20,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,11,Week 24,undefined,undefined
+Study_CDISC PILOT - LZZT,TV,12,Week 26,undefined,End of treatment

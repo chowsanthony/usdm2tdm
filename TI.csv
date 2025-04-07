@@ -1,0 +1,32 @@
+STUDYID,DOMAIN,IETESTCD,IETEST,IECAT
+Study_CDISC PILOT - LZZT,TI,IN01,Age greater than 50,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN02,Diagnosis of Alzheimer's,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN03,MMSE Score,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN04,Hachinski Ischemic Score,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN05,CNS imaging comptaible with Alzheimer's,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN06,Informed consent criteria,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN07,Geographic proximity criteria,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,IN08,Reliable caregiver criteria,Inclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX01,Previous study criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX02,Other Alzheimer's therapy criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX03,Serious illness criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX04,Serious neurolocal conditions criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX05,Depression criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX06,"Schizophrenia, Bipolar, Ethanol or psychoactive abuse criteria",Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX07,Syncope criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX08,ECG Criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX09,Cardiovascular criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX10,Gastrointensinal criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX11,Endocrine criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX12,Resporatory criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX13,Genitourinary criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX14,Rheumatologic criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX15,HIV criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX16,"Neurosyphilis, Meningitis,Encephalitis criteria",Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX17,Malignant disease criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX18,Ability to participate in study criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX19,Laboratory values criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX20,Central laboratory values criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX21,Syphilia criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX22,Hemoglobin criteria,Exclusion Criteria
+Study_CDISC PILOT - LZZT,TI,EX23,Medications Criteria,Exclusion Criteria
