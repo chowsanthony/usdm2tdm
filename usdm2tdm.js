@@ -96,6 +96,7 @@ const extractSdtmTV = `
     }
 `;
 
+// Define extraction expressions for TE
 const extractSdtmTE = `
     study.versions[versionIdentifier=$studyVersionId].studyDesigns[].elements[].{
         "STUDYID": $$.study.name,
@@ -107,8 +108,60 @@ const extractSdtmTE = `
     }
 `;
 
+// Define extraction expressions for TS (Part 1)
+// EXTTIND, ADAPT, and RANDOM are parameters required by the FDA TCG 6.0 or SDTMIG v3.3, i.e., a record must exist
+// Dynamically extract specific characteristics from studyDesign namely EXTENSION, ADAPTIVE, and RANDOM
+// If a characteristic is found, it’s marked with a "Y"; otherwise, it's marked as "N"
+// Loops over each key (characteristic) and constructs a corresponding array of TS records
+const extractSdtmTS1 = `
+    $map(
+        $keys(
+            $ts := (
+                $c := study.versions[versionIdentifier="2"].studyDesigns[].characteristics[];
+                {
+                    "EXTTIND": $c[decode="EXTENSION"].decode ? "Y" : "N",
+                    "ADAPT": $c[decode="ADAPTIVE"].decode ? "Y" : "N",
+                    "RANDOM": $c[decode="RANDOM"].decode ? "Y" : "N"
+                }
+            )
+        ),
+        function($k) {
+            {
+                "STUDYID":  $$.study.name,
+                "DOMAIN": "TS",
+                "TSSEQ": 1,
+                "TSPARMCD": $k,
+                "TSVAL": $lookup($ts, $k)
+            }
+        }
+    )
+`;
+
+// Define extraction expressions for TS (Part 2)
+// Extract primary and secondary objectives from studyDesigns
+const extractSdtmTS2 = `
+    $append(
+        study.versions[versionIdentifier="2"].studyDesigns[].objectives[level.code="C85826"]#$i.{
+            "STUDYID": $$.study.name,
+            "DOMAIN": "TI",
+            "TSSEQ": $i + 1,
+            "TSPARMCD": "OBJPRIM",
+            "TSVAL": text
+        },
+        study.versions[versionIdentifier="2"].studyDesigns[].objectives[level.code="C85827"]#$i.{
+            "STUDYID": $$.study.name,
+            "DOMAIN": "TI",
+            "TSSEQ": $i + 1,
+            "TSPARMCD": "OBJSEC",
+            "TSVAL": text
+        }
+    )
+`;
+
 // Generate datasets
 generateDataset(extractSdtmTA, "TA", data);
 generateDataset(extractSdtmTI, "TI", data);
 generateDataset(extractSdtmTV, "TV", data);
 generateDataset(extractSdtmTE, "TE", data);
+generateDataset(extractSdtmTS1, "TS1", data);
+generateDataset(extractSdtmTS2, "TS2", data);

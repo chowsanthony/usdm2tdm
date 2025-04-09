@@ -1,0 +1,8 @@
+STUDYID,DOMAIN,TSSEQ,TSPARMCD,TSVAL
+Study_CDISC PILOT - LZZT,TI,1,OBJPRIM,"To determine if there is a statistically significant relationship (overall Type 1 erroralpha=0.05) between the change in both the ADAS-Cog (11) and CIBIC+ scores, and drug dose (0, 50 cm2 [54 mg], and 75 cm2 [81 mg])."
+Study_CDISC PILOT - LZZT,TI,2,OBJPRIM,To document the safety profile of the xanomeline TTS.
+Study_CDISC PILOT - LZZT,TI,1,OBJSEC,"To assess the dose-dependent improvement in behavior. Improved scores on the Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these
+areas."
+Study_CDISC PILOT - LZZT,TI,2,OBJSEC,To assess the dose-dependent improvements in activities of daily living. Improved scores on the Disability Assessment for Dementia (DAD) will indicate improvement in these areas (see Attachment LZZT.5).
+Study_CDISC PILOT - LZZT,TI,3,OBJSEC,"To assess the dose-dependent improvements in an extended assessment of cognition that integrates attention/concentration tasks. The Alzheimer's Disease Assessment Scale-14 item Cognitive Subscale, hereafter referred to as ADAS-Cog (14), will be used for this assessment (see Attachment LZZT.2)."
+Study_CDISC PILOT - LZZT,TI,4,OBJSEC,To assess the treatment response as a function of Apo E genotype.
